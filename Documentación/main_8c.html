@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Videojuego: Referencia del Archivo main.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Videojuego
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Estructuras&#160;de&#160;Datos</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Globales</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('main_8c.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Estructuras de Datos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>&apos;typedefs&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Estructuras de datos</a> &#124;
+<a href="#typedef-members">'typedefs'</a> &#124;
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo main.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+<code>#include &quot;Pantalla.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="_colisiones_8h_source.html">Colisiones.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_bala_8h_source.html">Bala.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_rafaga_8h_source.html">Rafaga.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_enemigo_8h_source.html">Enemigo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_ejercito_8h_source.html">Ejercito.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_heroe_8h_source.html">Heroe.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Estructuras de datos</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_bloque_rep.html">BloqueRep</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+'typedefs'</h2></td></tr>
+<tr class="memitem:a6dec8c41f87b6c0b84054ce697604130"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6dec8c41f87b6c0b84054ce697604130"></a>
+typedef struct <a class="el" href="struct_bloque_rep.html">BloqueRep</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a6dec8c41f87b6c0b84054ce697604130">Bloque</a></td></tr>
+<tr class="memdesc:a6dec8c41f87b6c0b84054ce697604130"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representa un bloque. <br /></td></tr>
+<tr class="separator:a6dec8c41f87b6c0b84054ce697604130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a4b0a586226534e220fee7cbba23e7ec8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a4b0a586226534e220fee7cbba23e7ec8">dibuja_escenario</a> (<a class="el" href="main_8c.html#a6dec8c41f87b6c0b84054ce697604130">Bloque</a> escenario[], int n)</td></tr>
+<tr class="memdesc:a4b0a586226534e220fee7cbba23e7ec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dibuja el escenario entero.  <a href="#a4b0a586226534e220fee7cbba23e7ec8">Más...</a><br /></td></tr>
+<tr class="separator:a4b0a586226534e220fee7cbba23e7ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a032abcda41c9c9b4e0699667c648f4f3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a032abcda41c9c9b4e0699667c648f4f3">colision_escenario</a> (<a class="el" href="main_8c.html#a6dec8c41f87b6c0b84054ce697604130">Bloque</a> escenario[], int n, int x, int y, int w, int h)</td></tr>
+<tr class="memdesc:a032abcda41c9c9b4e0699667c648f4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detecta la colisión de un objeto con el escenario.  <a href="#a032abcda41c9c9b4e0699667c648f4f3">Más...</a><br /></td></tr>
+<tr class="separator:a032abcda41c9c9b4e0699667c648f4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1203765ae290980ef360032fe1d4a76"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ae1203765ae290980ef360032fe1d4a76">menu</a> (double *rx, double *ry)</td></tr>
+<tr class="memdesc:ae1203765ae290980ef360032fe1d4a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ejecuta el menú de inicio del videojuego.  <a href="#ae1203765ae290980ef360032fe1d4a76">Más...</a><br /></td></tr>
+<tr class="separator:ae1203765ae290980ef360032fe1d4a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89245aa4f1641952e5c84c0b5ed595a3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a89245aa4f1641952e5c84c0b5ed595a3">ayuda</a> (double *rx, double *ry)</td></tr>
+<tr class="memdesc:a89245aa4f1641952e5c84c0b5ed595a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ejecuta el menú de ayuda del videojuego.  <a href="#a89245aa4f1641952e5c84c0b5ed595a3">Más...</a><br /></td></tr>
+<tr class="separator:a89245aa4f1641952e5c84c0b5ed595a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a0cc61938fbce95c4428bb25fecc8c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a50a0cc61938fbce95c4428bb25fecc8c">jugar</a> (double *rx, double *ry)</td></tr>
+<tr class="memdesc:a50a0cc61938fbce95c4428bb25fecc8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ejecuta el juego, llamando a la función menu.  <a href="#a50a0cc61938fbce95c4428bb25fecc8c">Más...</a><br /></td></tr>
+<tr class="separator:a50a0cc61938fbce95c4428bb25fecc8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a class="anchor" id="a89245aa4f1641952e5c84c0b5ed595a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ayuda </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>ry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ejecuta el menú de ayuda del videojuego. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rx</td><td>Puntero a real que guarda la posición horizontal del ratón. </td></tr>
+    <tr><td class="paramname">ry</td><td>Puntero a real que guarda la posición vertical del ratón. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Si se pulsa en "Jugar", devuelve 0, si se produce un error, devuelve -1. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a032abcda41c9c9b4e0699667c648f4f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int colision_escenario </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a6dec8c41f87b6c0b84054ce697604130">Bloque</a>&#160;</td>
+          <td class="paramname"><em>escenario</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Detecta la colisión de un objeto con el escenario. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Un</td><td>escenario en forma de array. </td></tr>
+    <tr><td class="paramname">n</td><td>Número de elementos que tiene el array. </td></tr>
+    <tr><td class="paramname">x</td><td>Coordenada horizontal del objeto. </td></tr>
+    <tr><td class="paramname">y</td><td>Coordenada vertical del objeto. </td></tr>
+    <tr><td class="paramname">w</td><td>Anchura del objeto. </td></tr>
+    <tr><td class="paramname">h</td><td>Altura del objeto. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Si se ha producido colisión, devuelve 1, si no, devuelve 0. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4b0a586226534e220fee7cbba23e7ec8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dibuja_escenario </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="main_8c.html#a6dec8c41f87b6c0b84054ce697604130">Bloque</a>&#160;</td>
+          <td class="paramname"><em>escenario</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dibuja el escenario entero. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">escenario</td><td>El array con todos los bloques del escenario contenidos. </td></tr>
+    <tr><td class="paramname">n</td><td>El número de bloques del escenario. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a50a0cc61938fbce95c4428bb25fecc8c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int jugar </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>ry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ejecuta el juego, llamando a la función menu. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rx</td><td>Puntero a real que guarda la posición horizontal del ratón. </td></tr>
+    <tr><td class="paramname">ry</td><td>Puntero a real que guarda la posición vertical del ratón. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Devuelve 1 si se va a jugar, si no, devuelve 2, o -1 si se da un error. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Hace aparecer la pantalla y se define el color de los trazos.</p>
+<p>Todo lo relacionado con el menú, declaración de punteros que se usarán con el ratón y su liberación más tarde.</p>
+<p>Variable que usaremos más tarde para contar el número de iteraciones del bucle principal.</p>
+<p>La variable terminado, sirve para indicar al bucle while principal que debe parar.</p>
+<p>Variables que guardan datos relacionados con la puntuación y la vida.</p>
+<p>Imágenes utilizadas.</p>
+<p>Declaración del héroe.</p>
+<p>Declaración del ejército y la insercción del primer enemigo.</p>
+<p>Array de estructuras usado para guardar las caracterísicas del escenario y una variable auxiliar que indica su tamaño.</p>
+<p>Declaración de nuestra ráfaga utilizada por el héroe.</p>
+<p>Nuestra variable para tratar con ficheros.</p>
+<p>Bucle principal, mientras la pantalla esté activa, no nos quedemos sin vidas y hayamos pulsado "Jugar" en el menú, este se mantendrá en ejecución.</p>
+<p>Cada iteración suma uno a la variable contador, que sirve para spawnear nuevos enemigos en iteraciones concretas.</p>
+<p>Movimiento del héroe por la pantalla controlado por las flechas. Choque con el escenario.</p>
+<p>Movimiento aleatorio del enemigo por la pantalla, rebotando en los bordes y el escenario.</p>
+<p>Crea una bala al pulsar la tecla A y la mueve por la pantalla.</p>
+<p>Mueve la ráfaga si existe.</p>
+<p>Si la bala se colisiona con el enemigo, este aparece en otro lado y la bala desaparece.</p>
+<p>Si el héroe y el enemigo se solapan, tienes una vida menos, en el caso que sea tu última vida, el juego termina.</p>
+<p>Si un enemigo se choca con algo al final de los cálculos, lo vuelve a mover.</p>
+<p>Cadenas usadas para guardar el número de vidas y los puntos obtenidos para más tarde imprimirlos por pantalla.</p>
+<p>Comandos pantalla que dibujan teniendo en cuenta todo lo anterior. Muestran el fondo, al héroe, al enemigo, el escenario...</p>
+<p>Si existe una ráfaga, la dibuja.</p>
+<p>Más comandos pantalla, estos dibujan las vidas que se tienen y la puntuación total.</p>
+<p>En el caso de no tener vidas restantes, se da por hecho que el juego termina y se ejecuta el siguiente código que proyecta por pantalla si se ha obtenido un nuevo récord.</p>
+<p>Comandos finales de pantalla, después de estos, el bucle termina.</p>
+<p>En el caso de existir una ráfaga, la libera.</p>
+<p>Libera al enemigo.</p>
+<p>Libera al heroe.</p>
+<p>Liberamos imágenes.</p>
+<p>Libera la pantalla antes de terminar el programa.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae1203765ae290980ef360032fe1d4a76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int menu </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>ry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ejecuta el menú de inicio del videojuego. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rx</td><td>Puntero a real que guarda la posición horizontal del ratón. </td></tr>
+    <tr><td class="paramname">ry</td><td>Puntero a real que guarda la posición vertical del ratón. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Si se hace click sobre "Jugar", devuelve 0, si se hace sobre "Ayuda", devuelve 1, si se se hace sobre "Salir", devuelve 2, si se produce un error devuelve -1. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="main_8c.html">main.c</a></li>
+    <li class="footer">Generado el Martes, 10 de Mayo de 2022 14:42:06 para Videojuego por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['colision_5fbala',['colision_bala',['../_bala_8h.html#a895279e397df206a8d645079db7db765',1,'Bala.h']]],
+  ['colision_5fejercito_5fheroe',['colision_ejercito_heroe',['../_ejercito_8h.html#ad9f5e66c822bf3bc23de9ef07a19cfbf',1,'Ejercito.h']]],
+  ['colision_5fejercito_5fobjeto',['colision_ejercito_objeto',['../_ejercito_8h.html#ae7d6208b2f2e2da1702d415746a31106',1,'Ejercito.h']]],
+  ['colision_5fejercito_5fpantalla',['colision_ejercito_pantalla',['../_ejercito_8h.html#af08c790c3b1469fdd307c16094ab8154',1,'Ejercito.h']]],
+  ['colision_5fejercito_5frafaga',['colision_ejercito_rafaga',['../_ejercito_8h.html#a69e826972f2275bab896549ac8cbb961',1,'Ejercito.h']]],
+  ['colision_5fenemigo_5fheroe',['colision_enemigo_heroe',['../_enemigo_8h.html#a7fa9dfe53adcc00b838ec49982acb1a1',1,'Enemigo.h']]],
+  ['colision_5fenemigo_5fobjeto',['colision_enemigo_objeto',['../_enemigo_8h.html#a57c92bfbfd5592464ded3f5b5dc7c491',1,'Enemigo.h']]],
+  ['colision_5fenemigo_5fpantalla',['colision_enemigo_pantalla',['../_enemigo_8h.html#abab4619d7069282a74fd63dca4379a27',1,'Enemigo.h']]],
+  ['colision_5fenemigo_5frafaga',['colision_enemigo_rafaga',['../_enemigo_8h.html#a954321351acdabc4471f8a264ce96ae3',1,'Enemigo.h']]],
+  ['colision_5fescenario',['colision_escenario',['../main_8c.html#a032abcda41c9c9b4e0699667c648f4f3',1,'main.c']]],
+  ['colision_5fheroe_5fobjeto',['colision_heroe_objeto',['../_heroe_8h.html#accf9222be96cd5321f58069f1b52c5fa',1,'Heroe.h']]],
+  ['colision_5frafaga',['colision_rafaga',['../_rafaga_8h.html#a45d876eddb8a13428452844c439ebe42',1,'Rafaga.h']]],
+  ['crea_5fbala',['crea_bala',['../_bala_8h.html#a587035e60e60ed9c3490976c4b36bc14',1,'Bala.h']]],
+  ['crea_5fejercito',['crea_ejercito',['../_ejercito_8h.html#aaafa676c862eff3d4d10f4f541166d0e',1,'Ejercito.h']]],
+  ['crea_5fenemigo',['crea_enemigo',['../_enemigo_8h.html#af1e62932ead5d67c3bac373a9db78fe5',1,'Enemigo.h']]],
+  ['crea_5fheroe',['crea_heroe',['../_heroe_8h.html#a86cf1fc23343ce1315bf8008b7601187',1,'Heroe.h']]],
+  ['crea_5frafaga',['crea_rafaga',['../_rafaga_8h.html#a1c64174a26fc7ead7d12b8c5dd4bf35f',1,'Rafaga.h']]]
+];
